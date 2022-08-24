@@ -22,7 +22,7 @@ int main(){
 
     while(fscanf(arq2, "%lf %lf %lf %lf %lf %lf %lf %lf %lf", &Ux, &Uy, &Uz, &p, &vtk, &arc, &x, &y, &z) != EOF){
 
-        fprintf(arq, "%.8g %.8g\n", y, Uy);
+        fprintf(arq, "%.8g %.8g\n", y, Ux);
 
     }
     
